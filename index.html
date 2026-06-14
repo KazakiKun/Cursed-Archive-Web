@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cursed Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cinzel:wght@400;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAV ════════════════════════════════════════════════ -->
+  <nav>
+    <span class="nav-logo">Cursed Archive</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#trailer">Trailer</a></li>
+      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#download">Download</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══ HERO ════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-glow g1"></div>
+    <div class="hero-glow g2"></div>
+
+    <p class="hero-eyebrow">A Hidden Object Experience</p>
+    <h1 class="hero-title">Cursed<br /><span>Archive</span></h1>
+    <p class="hero-tagline">
+      Somewhere within these forgotten halls, the truth lies hidden.<br />
+      Can you uncover what was never meant to be found?
+    </p>
+
+    <div class="hero-cta-group">
+      <!-- COMMENT: Replace href with your GitHub Releases URL
+           Format: https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest -->
+      <a href="#download" class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Now
+      </a>
+      <a href="#trailer" class="btn btn-outline">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Watch Trailer
+      </a>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p class="section-label">The Story</p>
+        <h2 class="section-title">Every Room Hides a Secret</h2>
+        <div class="divider"></div>
+        <p>
+          Cursed Archive is a dark hidden-object puzzle game set inside a crumbling estate sealed for centuries. Each chamber is layered with shadows, relics, and riddles — and somewhere among the clutter, the answers wait.
+        </p>
+        <p>
+          Move through candlelit studies, dust-choked libraries, and vaulted crypts. Sharpen your eye, piece together the lore, and break the curse before it claims you.
+        </p>
+      </div>
+
+      <ul class="features-list reveal">
+        <li>
+          <div class="feat-icon">🕯️</div>
+          <div class="feat-text">
+            <strong>Atmospheric Scenes</strong>
+            <span>Hand-crafted environments dripping with detail and hidden depth.</span>
+          </div>
+        </li>
+        <li>
+          <div class="feat-icon">🔍</div>
+          <div class="feat-text">
+            <strong>Sharp-Eye Puzzles</strong>
+            <span>Dozens of cunningly concealed objects across ever-darkening rooms.</span>
+          </div>
+        </li>
+        <li>
+          <div class="feat-icon">📜</div>
+          <div class="feat-text">
+            <strong>Unfolding Mystery</strong>
+            <span>Collect clues and piece together the archive's forbidden history.</span>
+          </div>
+        </li>
+        <li>
+          <div class="feat-icon">🖥️</div>
+          <div class="feat-text">
+            <strong>Cross-Platform</strong>
+            <span>Available on Windows desktop and Android — play anywhere.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ═══ TRAILER ══════════════════════════════════════════════ -->
+  <section id="trailer">
+    <div class="trailer-inner reveal">
+      <p class="section-label">Official Trailer</p>
+      <h2 class="section-title">See the Archive Awaken</h2>
+      <div class="divider" style="margin-inline:auto;"></div>
+
+      <div class="video-wrapper">
+        <!--
+          COMMENT: To embed your YouTube trailer, uncomment the <iframe> below
+          and replace YOUR_VIDEO_ID with the actual ID from your YouTube URL.
+          Example URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+                   ID: dQw4w9WgXcQ
+
+          <iframe
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            title="Cursed Archive – Official Trailer"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+
+          Once you add the iframe, remove the .video-placeholder div below.
+        -->
+        <div class="video-placeholder">
+          <div class="play-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+          <p>Add your YouTube trailer here</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SCREENSHOTS ══════════════════════════════════════════ -->
+  <section id="screenshots">
+    <div class="carousel-wrap">
+      <div class="reveal" style="text-align:center;">
+        <p class="section-label">Gameplay</p>
+        <h2 class="section-title">Inside the Archive</h2>
+        <div class="divider" style="margin-inline:auto;"></div>
+      </div>
+
+      <div class="carousel reveal" id="carousel">
+        <div class="carousel-track" id="track">
+
+          <!--
+            COMMENT: Replace each .slide-ph block below with an <img> tag pointing
+            to your actual screenshot. Example:
+              <img src="./screenshots/screenshot1.jpg" alt="Scene 1 – The Library" />
+
+            There are 5 placeholder slides. Add or remove slides as needed.
+            Each slide also has a caption — update the text inside .carousel-caption.
+          -->
+
+          <div class="carousel-slide">
+            <div class="slide-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Screenshot 1</span>
+            </div>
+            <div class="carousel-caption">Scene 1 — Replace with your caption</div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="slide-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Screenshot 2</span>
+            </div>
+            <div class="carousel-caption">Scene 2 — Replace with your caption</div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="slide-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Screenshot 3</span>
+            </div>
+            <div class="carousel-caption">Scene 3 — Replace with your caption</div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="slide-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Screenshot 4</span>
+            </div>
+            <div class="carousel-caption">Scene 4 — Replace with your caption</div>
+          </div>
+
+          <div class="carousel-slide">
+            <div class="slide-ph">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Screenshot 5</span>
+            </div>
+            <div class="carousel-caption">Scene 5 — Replace with your caption</div>
+          </div>
+
+        </div><!-- /track -->
+
+        <button class="carousel-btn prev" onclick="moveCarousel(-1)" aria-label="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="carousel-btn next" onclick="moveCarousel(1)" aria-label="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+        </button>
+      </div><!-- /carousel -->
+
+      <div class="carousel-dots" id="dots"></div>
+    </div>
+  </section>
+
+  <!-- ═══ DOWNLOAD ════════════════════════════════════════════ -->
+  <section id="download">
+    <div class="download-inner">
+      <div class="reveal">
+        <p class="section-label">Get the Game</p>
+        <h2 class="section-title">Begin Your Investigation</h2>
+        <div class="divider" style="margin-inline:auto;"></div>
+        <p style="color:var(--ash); max-width:520px; margin:0 auto 0;">
+          Choose your platform and step into the archive. The hidden truths await.
+        </p>
+      </div>
+
+      <div class="download-cards reveal">
+
+        <!-- Windows / Desktop -->
+        <div class="dl-card">
+          <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+          </svg>
+          <h3>Windows</h3>
+          <p>Full desktop experience. Requires Windows 10 or later.</p>
+          <!--
+            COMMENT: Replace href with your GitHub Releases download link for the Windows build.
+            Format: https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/CursedArchive-Setup.exe
+            Note: The game file (~255 MB) is hosted in GitHub Releases, not the repo itself.
+          -->
+          <a href="#" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download .exe
+          </a>
+        </div>
+
+        <!-- Android -->
+        <div class="dl-card">
+          <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="5" y="2" width="14" height="20" rx="2"/>
+            <circle cx="12" cy="17" r="1"/>
+          </svg>
+          <h3>Android</h3>
+          <p>Take the mystery anywhere. Android 8.0+ required.</p>
+          <!--
+            COMMENT: Replace href with your GitHub Releases download link for the Android APK.
+            Format: https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/CursedArchive.apk
+            Or link to Google Play Store if published: https://play.google.com/store/apps/details?id=YOUR_APP_ID
+          -->
+          <a href="#" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download APK
+          </a>
+        </div>
+
+        <!-- Web Version -->
+        <div class="dl-card">
+          <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <h3>Play in Browser</h3>
+          <p>No install needed. Jump straight into the archive online.</p>
+          <!--
+            COMMENT: Replace href with your GitHub Pages or web deployment URL.
+            Format: https://YOUR_USERNAME.github.io/YOUR_WEB_REPO
+            Or any other hosting URL where the web version is live.
+          -->
+          <a href="#" class="btn btn-outline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Play Online
+          </a>
+        </div>
+
+      </div><!-- /download-cards -->
+
+      <p class="release-note reveal">
+        All builds are distributed via
+        <!--
+          COMMENT: Replace href with your GitHub Releases page URL.
+          Format: https://github.com/YOUR_USERNAME/YOUR_REPO/releases
+        -->
+        <a href="#">GitHub Releases</a>.
+        The game package is approximately 255 MB. Source code and web build are available in the
+        <!--
+          COMMENT: Replace href with your main GitHub repository URL.
+          Format: https://github.com/YOUR_USERNAME/YOUR_REPO
+        -->
+        <a href="#">GitHub repository</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ══════════════════════════════════════════════ -->
+  <footer>
+    <span class="footer-logo">Cursed Archive</span>
+    <ul class="footer-links">
+      <!--
+        COMMENT: Replace each href with your actual links below.
+        - GitHub: https://github.com/YOUR_USERNAME/YOUR_REPO
+        - Privacy / Contact: add your own pages or remove these links if unused
+      -->
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#download">Download</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span class="footer-copy">&copy; 2025 Cursed Archive. All rights reserved.</span>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
