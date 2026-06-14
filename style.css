@@ -412,6 +412,8 @@ section { padding: 100px 5vw; }
   text-align: center;
 }
 .download-cards {
+  align-items: center;
+  justify-content: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
@@ -507,7 +509,7 @@ footer {
 /* ─── RESPONSIVE ─────────────────────────────────────────── */
 @media (max-width: 768px) {
   .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
-  .download-cards { grid-template-columns: 1fr; max-width: 360px; margin-inline: auto; }
+  .download-cards { grid-template-columns: 1fr; max-width: 360px; align-items: center;}
   .nav-links { display: none; }
   footer { flex-direction: column; text-align: center; }
   .footer-links { flex-wrap: wrap; justify-content: center; }

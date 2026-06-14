@@ -110,17 +110,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
           </iframe>
-
-
-        <div class="video-placeholder">
-          <div class="play-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-          </div>
-          <p>Teaser Trailer</p>
-        </div>
       </div>
-    </div>
-  </section>
 
   <!-- ═══ SCREENSHOTS ══════════════════════════════════════════ -->
   <section id="screenshots">
@@ -190,66 +180,23 @@
         </p>
       </div>
 
-      <div class="download-cards reveal">
+<div class="download-cards reveal" style="grid-template-columns: 1fr; max-width: 320px; margin-inline: auto;">
 
-        <!-- Windows / Desktop -->
-        <div class="dl-card">
-          <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="2" y="3" width="20" height="14" rx="2"/>
-            <path d="M8 21h8M12 17v4"/>
-          </svg>
-          <h3>Windows</h3>
-          <p>Full desktop experience. Requires Windows 10 or later.</p>
-          <!--
-            COMMENT: Replace href with your GitHub Releases download link for the Windows build.
-            Format: https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/CursedArchive-Setup.exe
-            Note: The game file (~255 MB) is hosted in GitHub Releases, not the repo itself.
-          -->
-          <a href="#" class="btn btn-primary">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download .exe
-          </a>
-        </div>
+  <!-- Android -->
+  <div class="dl-card">
+    <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="5" y="2" width="14" height="20" rx="2"/>
+      <circle cx="12" cy="17" r="1"/>
+    </svg>
+    <h3>Android</h3>
+    <p>Take the mystery anywhere. Android 8.0+ required.</p>
+    <a href="https://github.com/KazakiKun/Cursed-Archive-Web/releases/download/CursedArchivev1.0.0/Cursed_Archive_FinalBETA.apk" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+      Download APK
+    </a>
+  </div>
 
-        <!-- Android -->
-        <div class="dl-card">
-          <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <rect x="5" y="2" width="14" height="20" rx="2"/>
-            <circle cx="12" cy="17" r="1"/>
-          </svg>
-          <h3>Android</h3>
-          <p>Take the mystery anywhere. Android 8.0+ required.</p>
-          <!--
-            COMMENT: Replace href with your GitHub Releases download link for the Android APK.
-            Format: https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/CursedArchive.apk
-            Or link to Google Play Store if published: https://play.google.com/store/apps/details?id=YOUR_APP_ID
-          -->
-          <a href="#" class="btn btn-primary">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Download APK
-          </a>
-        </div>
-
-        <!-- Web Version -->
-        <div class="dl-card">
-          <svg class="dl-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-            <circle cx="12" cy="12" r="10"/>
-            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-          </svg>
-          <h3>Play in Browser</h3>
-          <p>No install needed. Jump straight into the archive online.</p>
-          <!--
-            COMMENT: Replace href with your GitHub Pages or web deployment URL.
-            Format: https://YOUR_USERNAME.github.io/YOUR_WEB_REPO
-            Or any other hosting URL where the web version is live.
-          -->
-          <a href="#" class="btn btn-outline">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Play Online
-          </a>
-        </div>
-
-      </div><!-- /download-cards -->
+</div><!-- /download-cards -->
 
       <p class="release-note reveal">
         All builds are distributed via
